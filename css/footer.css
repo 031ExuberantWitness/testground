@@ -1,0 +1,28 @@
+/* Footer */
+
+    #footer {
+        padding: 1rem 0 2rem 20 ;
+        background: #a02040;
+        text-align: left;
+    }
+
+    #footer a {
+        color: #e7aa11;
+    }
+
+        #footer a:hover {
+            color: #fff;
+        }
+
+    #footer .copyright {
+        color: #bbb;
+        font-size: 0.8rem;
+        margin: 0.9rem 0 0.1rem 0;
+        padding: 0;
+        text-align: center;
+    }
+
+
+    a:hover, a:visited, a:link, a:active{
+        text-decoration: none;
+    } 

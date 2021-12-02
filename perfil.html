@@ -1,0 +1,99 @@
+<html lang="en">
+    <head>
+		<title>Login</title>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compat" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!-- Hojas de css-->
+		<link rel="stylesheet" href="css/homepage.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/banner.css">
+		<link rel="stylesheet" href="css/components.css">
+		<link rel="stylesheet" href="css/containers.css">
+		<link rel="stylesheet" href="css/footer.css">
+    </head>
+    <body>
+
+        <!-- Encabezado -->
+        <header id="header" class="alt">    
+            <div class="logo"><a href="index.html">Gobierno del Estado <span>Nayarit, Mexico</span></a></div>
+			<a href="#menu">Menu</a>
+		</header>
+        
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<img src="images/logo-tepic.png"/>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="perfil.html">Perfil (oculto)</a></li>
+				<li><a href="login.html">Iniciar sesión</a></li>
+				<li><a href="login.html">Identidad (NID)</a></li>
+				<li><a href="login.html">Votación en linea</a></li>
+				<li><a href="login.html">Salud</a></li>
+				<li><a href="login.html">Participación ciudadana</a></li>
+				<li><a href="login.html">Servicios publicos</a></li>
+				<li><a href="login.html">Servicios de información</a></li>
+				<li><a href="login.html">Servicios educativos</a></li>
+				<li><a href="login.html">Oportunidad de empleo</a></li>
+				<li><a href="login.html">Turismo</a></li>
+				<li><a href="login.html">Seguridad y protección</a></li>
+				<li><a href="login.html">Transporte publico</a></li>
+				<li><a href="login.html">Medio ambiente</a></li>
+				<li><a href="login.html">Ciencia y tecnologia</a></li>
+				<li><a href="login.html">Administración, planeación y finanzas</a></li>
+				<li><a href="login.html">Servicios comerciales</a></li>
+				<li><a href="login.html">Obras públicas</a></li>
+			</ul>
+		</nav>
+
+        <!-- Contenido -->
+
+        <section class="banner full">
+            <article>
+                <img src="images/landscape.jpg"/>
+                <div class="inner">
+                    <header>
+
+						<div class="profile">
+							<div class="profile-toggle"></div>
+							<div class="profile-panel one">
+								<div class="profile-header">
+									<h1>Información del usuario</h1>
+								</div>
+								<div class="profile-content">
+									<form>
+										<div class="profile-group"><label for="curp">CURP</label><input type="text" id="username" name="username" required="required" /></div>
+                                        <hr>
+										<div class="profile-group"><label for="nombre">Nombre(s)</label><input type="password" id="password" name="password" required="required" /></div>
+                                        <div class="profile-group"><label for="prApellido">Primer Apellido</label><input type="password" id="password" name="password" required="required" /></div>
+                                        <div class="profile-group"><label for="seApellido">Segundo Apellido</label><input type="password" id="password" name="password" required="required" /></div>
+                                        <hr>
+                                        <div class="profile-group"><label for="fechaNac">Fecha de Nacimiento</label><input type="password" id="password" name="password" required="required" /></div>
+                                        <div class="profile-group"><label for="nac">Nacionalidad</label><input type="password" id="password" name="password" required="required" /></div>
+                                        <div class="profile-group"><label for="nacLugar">Lugar de nacimiento</label><input type="password" id="password" name="password" required="required" /></div>
+                                        <hr>
+                                        <div class="profile-group"><label for="telFijo">Télefono fijo (10 digitos)</label><input type="password" id="password" name="password" required="required" /></div>
+                                        <div class="profile-group"><label for="telMovil">Télefono movil (10 digitos)</label><input type="password" id="password" name="password" required="required" /></div>
+                                        <div class="profile-group"><label for="estCivil">Estado civil</label><input type="password" id="password" name="password" required="required" /></div>
+                                        <hr>
+										<div class="form-group"><button type="btnRegresar">Regresar</button></div>	
+									</form>
+								</div>
+							</div>
+						</div>
+                    </header>
+                </div>
+            </article>
+        </section>  
+
+        <!-- Scripts -->
+		<script src="js\jquery.min.js"></script>
+		<script src="js\jquery.scrollex.min.js"></script>
+		<script src="js\skel.min.js"></script>
+		<script src="js\util.js"></script>
+		<script src="js\main.js"></script>
+		<script src="js\login.js"></script>
+
+    </body>
+</html>
